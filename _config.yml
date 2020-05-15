@@ -101,3 +101,10 @@ deploy:
   type: "git"
   repo: https://github.com/xuehonghao/xuehonghao.github.io
   branch: master
+
+# 订阅 RSS
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+rss: /atom.xml
